@@ -1,0 +1,10 @@
+---
+- hosts: all
+  vars:
+      host_ip: ""
+      app_name: "petclinic"
+      env_name: "DOA_Labs_Module2_Module3_FOSS_Java_CI"
+      domain_name: "{{ env_name }}.{{ host_ip }}.xip.io/{{ app_name }}"
+
+  tasks:
+    - debug: var=domain_name

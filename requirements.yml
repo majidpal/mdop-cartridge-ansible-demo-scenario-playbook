@@ -1,0 +1,4 @@
+- src: ssh://jenkins@gerrit:29418/DOA/Labs/Module5_Ansible/adop-cartridge-ansible-reference-role.git
+  scm: git
+  name: role-ssl
+  version: "master"
